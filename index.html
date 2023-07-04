@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <script src="https://kit.fontawesome.com/8b42185fc0.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="style.css" />
+        <title>Login Page</title>
+    </head>
+    <body>
+        <div class="container">
+            <div class="col-left">
+                <div class="content-left">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, soluta!</p>
+                </div>
+            </div>
+            <div class="col-right">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" class="wave">
+                    <path
+                        fill="#c1512e"
+                        fill-opacity="1"
+                        d="M0,224L60,229.3C120,235,240,245,360,234.7C480,224,600,192,720,197.3C840,203,960,245,1080,261.3C1200,277,1320,267,1380,261.3L1440,256L1440,0L1380,0C1320,0,1200,0,1080,0C960,0,840,0,720,0C600,0,480,0,360,0C240,0,120,0,60,0L0,0Z"
+                    ></path>
+                </svg>
+                <div class="content-right">
+                    <div class="content-header">
+                        <h1>Welcome Back</h1>
+                        <h3>Login to your account</h3>
+                    </div>
+                    <form id="formLogin">
+                        <div class="content-body">
+                            <div class="input-group">
+                                <label for="username" class="form-label">username</label>
+                                <input
+                                    type="text"
+                                    class="form-input"
+                                    id="username"
+                                    name="username"
+                                    placeholder="exp: xxx@gmail.com"
+                                />
+                            </div>
+                            <div class="input-group">
+                                <label for="password" class="form-label">password</label>
+                                <div class="password-group">
+                                    <input
+                                        type="password"
+                                        class="form-input"
+                                        id="password"
+                                        name="password"
+                                        placeholder="************"
+                                    />
+                                    <button id="btnShowPassword" type="button">
+                                        <i class="fa-solid fa-eye-slash"></i>
+                                    </button>
+                                </div>
+                            </div>
+                            <a href="#" class="forget">forget password</a>
+                        </div>
+                        <div class="content-footer">
+                            <button id="btnLogin" type="submit">Login</button>
+                        </div>
+                    </form>
+                    <div class="line">or</div>
+
+                    <a href="#" id="buttonGoogle">
+                        <img
+                            src="./img/1+v9m0rIr998omJgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACsLv8BOtwLKEAPiX8AAAAASUVORK5CYII=.png"
+                            alt="google"
+                        />Sign in with google
+                    </a>
+
+                    <div class="signup">Don't have an account? <a href="#">Signup</a></div>
+                </div>
+            </div>
+        </div>
+
+        <script src="script.js"></script>
+    </body>
+</html>
